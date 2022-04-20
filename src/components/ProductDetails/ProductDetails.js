@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ProductDetails({ product, visible }) {
+    console.log(product)
     if (!visible) return null
 
     if (!product) return (
